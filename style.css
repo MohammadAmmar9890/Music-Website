@@ -1,0 +1,257 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.navbar{
+    background-color: #270082;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 100px;
+}
+.navbar ul{
+    display: flex;
+
+}
+.navbar ul li{
+    list-style: none;
+    padding: 0px 20px;
+}
+/* -------------------------- */
+.firstpage{
+    height: 92vh;
+
+}
+.frontimage img{
+    width: 99vw;
+    height: 93vh;
+    position: relative;
+}
+.frontcontent{
+    position: absolute;
+    top: 40%;
+    left: 28%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 45vw;
+    color: white;
+}
+.frontcontent h1{
+    font-size: 60px;
+    padding: 20px;
+}
+.frontcontent h3{
+    font-size: 20px;
+    font-weight: lighter;
+    padding-bottom: 20px;
+}
+/* --------------------- */
+.secondpage{
+    background-color: #281154;
+    height: 90vh;
+    
+}
+.secondcontent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 60vw;
+    margin: auto;
+    color: white;
+    padding: 40px;
+}
+.secondcontent h3{
+    padding-bottom: 15px;
+ 
+}
+.para {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 15px;
+}
+.secondcontent button{
+    background-color: red;
+    color: white;
+    padding: 12px;
+    border: none;
+    cursor: pointer;
+}
+.secondcontent .minipara p{
+    margin: 15px;
+}
+.secondcontent img{
+    width: 30px;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+.flex h1{
+    padding: 0px 20px;
+}
+.secondimage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    overflow: hidden;
+}
+.secondimage img{
+    width: 60vw;
+}
+.thirdpage{
+    position: absolute;
+    top: 240vh;
+    width: 99vw;
+}
+.thirdcontent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.thirdmaincontent{
+    width: 70vw;
+    padding:8px;
+    display: flex;
+     justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.thirdmaincontent h1{
+    margin-top: 20px;
+    padding: 10px;
+}
+.thirdpara{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 30px;
+}
+.thirdmaincontent button{
+    margin-top: 20px;
+    padding: 8px 14px;
+    border: none;
+    background-color: #37008E;
+    color: white;
+    cursor: pointer;
+}
+.thirdimage{
+    height: 100vh;
+}
+.thirdimage img{
+    display: flex;
+    margin: 40px auto;
+}
+/* ----------------- */
+.fourthpage{
+    position: absolute;
+    top: 370%;
+    z-index: -1;
+}
+.fourthimage img{
+    width: 99vw;
+    filter: brightness(50%);
+}
+.fourthcontent{
+    z-index: 1;
+    color: white;
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 30%;
+    left: 15%;
+}
+.fourthcontent h1{
+    padding: 20px;
+}
+.fourthcontent p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
+}
+.fifthpage{
+    position: absolute;
+    top: 480%;
+    left: 10%;
+    width: 80vw;
+}
+.maincontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    
+}
+.grid{
+    width: 70vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.maincontent h2{
+    padding: 15px 0px;
+}
+.maincontent p{
+    padding: 8px 0px;
+}
+.maincontent hr{
+    margin: 15px 0px;
+}
+.maincontent button{
+    padding: 8px 15px;
+    border: none;
+    color: white;
+    background-color: #37008E;
+}
+.lastsection{
+    width: 99vw;
+    background-color: #221059;
+    color: white;
+    position: absolute;
+    top: 550%;
+}
+.lastcontent{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 70vw;
+    margin: 60px auto;
+    gap: 20px;
+}
+.lastcontent hr{
+    margin-bottom: 20px;
+}
+.lastcontent ul li{
+    list-style: none;
+    padding: 2px;
+}
+.footer{
+    background-color: #270082;
+    color: white;
+    position: absolute;
+    top: 588%;
+}
+.foot{
+    padding: 20px;
+    width: 96.4vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* overflow-: hidden; */
+}
+
